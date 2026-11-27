@@ -1,0 +1,17 @@
+
+# Logical Inference using Propositional Logic
+
+rain = True
+
+# Rule: If it rains, the road becomes wet
+if rain:
+    road_wet = True
+else:
+    road_wet = False
+
+# Derive conclusion
+print("Is it raining?", rain)
+print("Is the road wet?", road_wet)
+
+if rain and road_wet:
+    print("Conclusion: It is raining, so the road is wet.")
